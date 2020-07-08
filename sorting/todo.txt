@@ -1,0 +1,14 @@
+I have heap sort and quick sort (apparently) working for i32.
+
+Next steps?
+
+- Add testing for the algorithms via Unit Tests
+- Add some tests utilizing randomized input that validates correctness. 
+  This may be difficult given I have used arrays though and I don't seem to be able to instantiate them dynamically.
+
+Performance
+- Some performance tests would be really great. It would be good to understand how to benchmark a rust application
+
+Extensions
+- Revisit Traits and understand how I can introduce an icomparable type interface (ala C#) into rust
+- Implement my sorting algorithms for c

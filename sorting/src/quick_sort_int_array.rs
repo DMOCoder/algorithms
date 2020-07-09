@@ -5,7 +5,6 @@ pub fn sort_int_array(arr: &mut [i32]) {
 }
 
 fn quick_sort_range(arr: &mut[i32], low: usize, high: usize) {
-
     if low < high {
         let index = partition(arr, low, high);
 
